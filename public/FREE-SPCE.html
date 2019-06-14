@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<html>
+
+<head>
+    <meta charset=utf-8>
+    <title>
+        フリースペース
+    </title>
+    <link rel="stylesheet" href="artbyleo.css">
+    <link href="https://fonts.googleapis.com/css?family=IM+Fell+DW+Pica+SC&display=swap" rel="stylesheet">
+    <script src="you.aint.never.seen.javascript.like.this.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+
+    </script>
+
+
+    <script>
+        $(document).ready(function() {
+            $("#dots").mouseover(function() {
+                $("#dots").fadeTo(200, 0.5);
+                $("#logo").slideToggle("slow", function() {})
+
+            })
+            $("#dots").mouseout(function() {
+                $("#dots").fadeTo(0.5, 200);
+                //$("#logo").slideUp("slow", function() {})
+            })
+        })
+    </script>
+    <!--BACKGROUND SLIDESHOW JQUERY-->
+    <!--https://codepen.io/GeoffreyCrofte/pen/QwjBQm-->
+    <script>
+        $(function() {
+            setInterval(function() {
+                $(".slideshow1 ul").animate({
+                    marginLeft: -1500
+                }, 1500, function() {
+                    $(this).css({
+                        marginLeft: 0
+                    }).find("li:last").after($(this).find("li:first"));
+                })
+            }, 8000);
+        });
+    </script>
+
+</head>
+
+<body>
+
+    <!--MAKE IMAGE A LINK TO HOME PAGE-->
+    <img id="homeimage" class="homeimage" src="fsite1.png" alt="FREE-SPACE" width=400px>
+    <div id="leo" class="leo">what leo would want</div>
+
+
+    <img id="dots" class="dots" src="dotdotdot.png" alt="dotdotdot" height=px width=300px>
+
+
+    <!--LINK TO FREESPACE WEBSTORE-->
+    <a id="weblink" class="logo" href="http://furisupesu.bigcartel.com" target="_blank">
+        <img id="logo" src="NEWPASSTHATSHITinst (1).png" alt="FREE-SPACE" height=px width=200px>
+        <!--<div id="web">(webstore]</div>-->
+    </a>
+
+    <div class="slideshow slideshow1">
+        <ul>
+            <li><img src="DSC_0057.jpg" width="1500" height="1000" /></li>
+            <li><img src="IMG_9668.jpg" width="1500" height="1000" /></li>
+            <li><img src="DSC09675.jpg" width="1500" height="1000" /></li>
+            <li><img src="IMG_0125.jpg" width="1500" height="1000" /></li>
+        </ul>
+    </div>
+
+</body></html>

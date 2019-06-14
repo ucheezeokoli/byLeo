@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display+SC&display=swap');
+
+body{
+    background:url("DSC_0057.jpg") no-repeat center/100% #F4EDD8;
+}
+
+header{
+    color:#F4BB22
+}
+#dots{
+    padding:300px 100px 50px 100px;
+}
+#weblink{
+    padding:0px 0px 0px 200px;
+}
+img{
+    display:block;
+    margin-left:auto ;
+    margin-right:auto;
+    
+}

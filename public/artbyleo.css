@@ -1,0 +1,86 @@
+body {
+   /*background-image: url("DSC_0057.jpg");*/
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position:top center;
+    background-color: #9d7f65;
+    
+}
+
+#leo {
+    color: #F4BB22;
+    font-family: 'IM Fell DW Pica SC', serif;
+    font-size: 75px;
+}
+
+/*#dots {
+    /*padding: 300px 100px 50px 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+*/
+#dots {
+    position: absolute;
+    top=1000px;
+}
+
+#logo {
+    display:none ;
+ 
+}
+
+
+.homeimage {
+    position: absolute;
+    top: 6%;
+    left:10%;
+    z-index: 10;
+}
+.dots {
+    position: absolute;
+    top: 60%;
+    right: 12%;
+    z-index: 10;
+}
+
+.logo {
+    position: absolute;
+    top:80%;
+    right: 10%;
+    z-index: 10;
+}
+
+.leo {
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    text-align: center;
+    z-index: 10;
+}
+
+
+
+
+	/* slideshow styles */
+	.slideshow {  
+       width: 100vw;  
+       height: 100vh;  
+       /*margin: 1em auto;*/
+       overflow: hidden ;
+        position:relative;
+/*        left: 10%;*/
+       z-index:5;
+    }  
+    .slideshow ul {  
+       width: 400%;  
+       height: 200px;
+       padding:0; margin:0;
+       list-style:none;
+    }  
+    .slideshow li { float: left; }
+
+.slideshow {
+	min-width:500px;
+}
